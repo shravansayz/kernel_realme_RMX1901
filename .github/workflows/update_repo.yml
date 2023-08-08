@@ -31,8 +31,8 @@ jobs:
     - name: Update Repo
       id: sha
       run: |
-        git config --global user.name "H1mJT"
-        git config --global user.email "himjyoti22@gmail.com"
+        git config --global user.name "shravansayz"
+        git config --global user.email "shravankumarsayz@gmail.com"
         git submodule sync
         git submodule update --init --recursive
         cd $GITHUB_WORKSPACE/KernelSU
