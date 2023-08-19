@@ -5,8 +5,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      TELEGRAM_TO: "${{ secrets.TELEGRAM_TO }}"
-      TELEGRAM_TOKEN: "${{ secrets.TELEGRAM_TOKEN }}"
       CCACHE_COMPILERCHECK: "%compiler% -dumpmachine; %compiler% -dumpversion"
       CCACHE_NOHASHDIR: "true"
       CCACHE_MAXSIZE: "2G"
